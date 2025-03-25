@@ -317,7 +317,7 @@ async def txt_handler(bot: Client, m: Message):
     # Default credit message
     credit = MJ  
     if raw_text3 == '1':
-        CR = 'MJ '
+        CR = 'BOTS'
     elif raw_text3:
         CR = raw_text3
     else:
