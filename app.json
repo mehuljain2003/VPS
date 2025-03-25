@@ -1,0 +1,40 @@
+
+{
+    "name": "MJ❤️ BOTS",
+    "description": "Download videos from various websites using this Telegram bot.",
+    "logo": "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
+    "keywords": [
+        "drm-video-dl",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/nikhilsaini098/Saini-txt-direct",
+    "success_url": "https://github.com/nikhilsaini098/Saini-txt-direct",
+    "stack": "container",
+    "env": {
+        "API_ID": {22940312
+            "description": "Enter your Telegram API ID.",
+            "required": true
+        },
+        "API_HASH": {82fb5cd2de25e4c01021b8bbae9909bb
+            "description": "Enter your Telegram API Hash.",
+            "required": true
+        },
+        "BOT_TOKEN": {7542540450:AAGF9w_rsn-2ZtsWVyJl3WzGx9DARcR-cP4
+            "description": "Enter your Telegram Bot Token.",
+            "required": true
+        },
+        "OWNER_ID": {6818594183
+            "description": "User ID of Bot Owner",
+            "required": true
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "standard-2x"
+        }
+    },
+    "addons": [],
+    "buildpacks": []
+}
