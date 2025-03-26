@@ -20,7 +20,7 @@
             "description": "Enter your Telegram API Hash.",
             "required": true
         },
-        "BOT_TOKEN": {7542540450:AAGF9w_rsn-2ZtsWVyJl3WzGx9DARcR-cP4
+        "BOT_TOKEN": {7676394622:AAFlRSjDdBfuXM-xXxN3olcckJgW5RY2oiA
             "description": "Enter your Telegram Bot Token.",
             "required": true
         },
