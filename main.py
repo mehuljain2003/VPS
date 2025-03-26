@@ -162,7 +162,7 @@ async def help_handler(client: Client, m: Message):
         "• 🎓 All Non DRM+AES Encrypted URLs\n"
         "• 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)</code></pre>\n\n"
         "🚀 You are not subscribed to any plan yet!\n\n"
-        "<pre><code>Contact to 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 for buy membership.</code></pre>"
+        "<pre><code>Contact to MJ BOTS for buy membership.</code></pre>"
     ))
 
 @bot.on_message(filters.command(["help"]))
@@ -221,7 +221,7 @@ async def start_command(bot: Client, message: Message):
     random_image_url = random.choice(image_urls)
     caption = (
         "🌟 Welcome Boss😸! 🌟\n\n"
-        "➽ I am Powerful DRM Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /drm for use this Bot.\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 : 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎 🦁</code></pre>"
+        "➽ I am Powerful DRM Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /drm for use this Bot.\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 : MJ TEAM</code></pre>"
     )
     
     await bot.send_photo(
@@ -675,7 +675,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception as e:
         await m.reply_text(e)
     await m.reply_text(f"`✨𝙱𝚊𝚝𝚌𝚑 𝚂𝚞𝚖𝚖𝚊𝚛𝚢✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n🔢𝙸𝚗𝚍𝚎𝚡 𝚁𝚊𝚗𝚐𝚎 » ({raw_text} to {len(links)})\n📚𝙱𝚊𝚝𝚌𝚑 𝙽𝚊𝚖𝚎 » {b_name}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n✨𝚃𝚡𝚝 𝚂𝚞𝚖𝚖𝚊𝚛𝚢✨\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n🔹𝚉𝙸𝙿 » {zip_count}  🔹𝙿𝙳𝙵 » {pdf_count}\n🔹𝙸𝚖𝚐 » {img_count}  🔹𝚅𝚒𝚍𝚎𝚘 » {video_count}\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n✅𝚂𝚝𝚊𝚝𝚞𝚜 » 𝙲𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍`")
-    await m.reply_text("<pre><code>Downloaded By ⌈✨『𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎』✨⌋</code></pre>")
+    await m.reply_text("<pre><code>Downloaded By ⌈✨『MJ TEAM』✨⌋</code></pre>")
     
 @bot.on_message(filters.text & filters.private)
 async def text_handler(bot: Client, m: Message):
